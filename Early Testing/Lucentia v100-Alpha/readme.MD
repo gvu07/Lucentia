@@ -8,3 +8,6 @@
 | **Uvicorn** | High-performance web server for FastAPI | [Uvicorn Docs](https://www.uvicorn.org/) |
 | **Docker** | Container system used to run Postgres locally | [Docker Docs](https://docs.docker.com/get-started/) |
 
+Setting up VSCODE:
+
+python -m venv .venv
