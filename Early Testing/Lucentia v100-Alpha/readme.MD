@@ -8,21 +8,6 @@
 | **Uvicorn** | High-performance web server for FastAPI | [Uvicorn Docs](https://www.uvicorn.org/) |
 | **Docker** | Container system used to run Postgres locally | [Docker Docs](https://docs.docker.com/get-started/) |
 
-Got it ✅ — here’s the **complete single-file `README.md`** for your **Lucentia project**, rewritten to be *GitHub-ready*, fully installable from scratch, and self-contained — including every dependency, VS Code setup, and Plaid configuration.
-
-Everything a developer needs to run this project locally is here.
-
----
-
-````markdown
-# 🌐 Lucentia — Financial Intelligence Platform  
-**Built with:** 🐍 FastAPI • 🧠 SQLModel • 🧾 Plaid API • 🐘 PostgreSQL • 🐳 Docker
-
-Lucentia is a financial insights platform that securely connects to users’ bank accounts through [Plaid](https://plaid.com/) and delivers meaningful spending insights such as:
-
-> “You’re spending 30% more on dining this week than your average.”
-
-This `README.md` is your **complete developer installation and setup guide** — from cloning the repo to connecting Plaid’s sandbox and running the backend locally in **VS Code**.
 
 ---
 
