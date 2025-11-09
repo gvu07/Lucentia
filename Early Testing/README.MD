@@ -1,6 +1,6 @@
 ## 📘 Version Naming Convention
 
-Lucentia versions follow the **NATO phonetic alphabet**, starting from **Lucentia Alpha**:
+Lucentia versions follow the **NATO phonetic alphabet**, starting from **Lucentia Alpha** with dots ommited from filenames:
 
 | Sequence | Version Name | Example Tag |
 |-----------|---------------|--------------|
