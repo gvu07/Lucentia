@@ -25,7 +25,7 @@ code .
 
 ---
 
-## 🧱 2. Set Up a Virtual Environment
+##  2. Set Up a Virtual Environment
 
 ```bash
 python -m venv .venv
@@ -48,7 +48,7 @@ Check that it’s active — your terminal prompt should begin with `(.venv)`.
 
 ---
 
-## 📦 3. Install All Dependencies
+##  3. Install All Dependencies
 
 Run **this single pip install command** to get everything the backend needs:
 
@@ -71,14 +71,14 @@ pip install fastapi uvicorn sqlmodel sqlalchemy psycopg2-binary alembic python-d
 | `plaid-python`               | Official Plaid API SDK                      |
 | `black` / `isort` / `pylint` | Formatting and linting tools for clean code |
 
-> 🧩 **Note:** If VS Code shows `Import "fastapi" could not be resolved`, fix it by:
+>  **Note:** If VS Code shows `Import "fastapi" could not be resolved`, fix it by:
 >
 > * Opening **Command Palette (Ctrl+Shift+P)**
 > * Typing “Python: Select Interpreter” → choose `.venv`
 
 ---
 
-## 🐘 4. Run PostgreSQL with Docker
+##  4. Run PostgreSQL with Docker
 
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 2. Start your local Postgres container:
@@ -107,7 +107,7 @@ docker start lucentia_db
 
 ---
 
-## 🔑 5. Configure Environment Variables
+##  5. Configure Environment Variables
 
 Create a `.env` file in `/backend` and paste the following:
 
@@ -128,7 +128,7 @@ DATABASE_URL=postgresql+psycopg2://lucentia:lucentia@localhost:5432/lucentia
 
 ---
 
-## 🗃️ 6. Initialize the Database Schema
+##  6. Initialize the Database Schema
 
 Create the database tables:
 
@@ -144,14 +144,14 @@ python -m app.create_db
 
 ---
 
-## ⚡ 7. Run the Backend Server
+##  7. Run the Backend Server
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
 Then visit:
-👉 [http://localhost:8000/docs](http://localhost:8000/docs)
+ [http://localhost:8000/docs](http://localhost:8000/docs)
 
 This opens FastAPI’s Swagger UI where you can:
 
@@ -161,7 +161,7 @@ This opens FastAPI’s Swagger UI where you can:
 
 ---
 
-## 🧪 8. Testing in Plaid Sandbox Mode
+##  8. Testing in Plaid Sandbox Mode
 
 Plaid Sandbox simulates real banks with test credentials.
 
@@ -172,11 +172,11 @@ When prompted in the web flow, use:
 
 You’ll see mock accounts and transactions generated instantly.
 
-If “Connect Bank” works and “Refresh Insight” returns results — your sandbox setup is successful ✅
+If “Connect Bank” works and “Refresh Insight” returns results — your sandbox setup is successful 
 
 ---
 
-## 🧭 9. Requesting Plaid Development Access (Real Banks)
+##  9. Requesting Plaid Development Access (Real Banks)
 
 To connect OAuth institutions like Chase or Wells Fargo:
 
@@ -198,11 +198,11 @@ Once approved:
 * Replace credentials with your real `client_id` and `secret`
 * Restart the backend
 
-> 🆓 Development access allows real OAuth banks, up to 100 users, free of charge.
+>  Development access allows real OAuth banks, up to 100 users, free of charge.
 
 ---
 
-## 💳 10. (Later) Production Tier — Pay As You Go
+##  10. (Later) Production Tier — Pay As You Go
 
 Once Lucentia is live, upgrade to **Production** in your Plaid Dashboard.
 
@@ -215,7 +215,7 @@ Once Lucentia is live, upgrade to **Production** in your Plaid Dashboard.
 
 ---
 
-## 🧩 11. Common Developer Commands
+##  11. Common Developer Commands
 
 | Command                                                    | Purpose                        |
 | ---------------------------------------------------------- | ------------------------------ |
@@ -229,7 +229,7 @@ Once Lucentia is live, upgrade to **Production** in your Plaid Dashboard.
 
 ---
 
-## 🧑‍💻 12. Troubleshooting
+##  12. Troubleshooting
 
 | Issue                                                | Fix                                                           |
 | ---------------------------------------------------- | ------------------------------------------------------------- |
@@ -241,7 +241,7 @@ Once Lucentia is live, upgrade to **Production** in your Plaid Dashboard.
 
 ---
 
-## 🌱 13. Frontend Setup (Optional)
+##  13. Frontend Setup (Optional)
 
 If you’re also running the **React frontend**:
 
