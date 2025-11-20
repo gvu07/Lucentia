@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #E0E3F3;
+    color: #505869;
+  }
+  body {
+    background-color: #E0E3F3;
+    color: #505869;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-lg shadow-sm border border-[#C7CBE4] p-6;
+    background: linear-gradient(135deg, #EEF0FF 0%, #F8F9FF 100%);
+  }
+  
+  .btn-primary {
+    @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
+  }
+  
+  .input-field {
+    @apply appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm;
+  }
+
+  .chart-no-clip {
+    overflow: visible !important;
+  }
+
+  .chart-no-clip .recharts-wrapper {
+    overflow: visible !important;
+  }
+
+  .chart-no-clip .recharts-surface {
+    overflow: visible !important;
+  }
+
+  .chart-no-clip .recharts-wrapper:focus,
+  .chart-no-clip .recharts-wrapper:focus-visible,
+  .chart-no-clip .recharts-surface:focus,
+  .chart-no-clip .recharts-surface:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
