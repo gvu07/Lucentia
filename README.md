@@ -2,6 +2,8 @@
 
 # **Lucentia**
 
+Current Build: "Lucentia v100-Bravo"
+
 *A personal finance insights platform that transforms raw bank data into clear, actionable recommendations.*
 
 Lucentia connects securely to financial accounts via Plaid, ingests real-world transaction data, and turns it into intuitive insights instead of overwhelming tables. The project demonstrates a full end-to-end product: secure data ingestion, a modular insights engine, and a polished, modern frontend. This document provides insight into our local testing version of the app. While the general architecture is largely identical, major changes have been made as it relates to security as well as migrating to the cloud.
