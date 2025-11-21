@@ -152,10 +152,10 @@ npm run dev
 
 ## **📬 Contact**
 
+If you're evaluating Lucentia or want to discuss the architecture, feel free to reach out to any of the founders. The project is actively evolving with a long-term vision of becoming a full personal finance OS.
+
 Suyash: suyasho@umich.edu
 Giang: gvu@umich.edu
 Elijah: felijah@umich.edu
-
-If you're evaluating Lucentia or want to discuss the architecture, feel free to reach out to any of the founders. The project is actively evolving with a long-term vision of becoming a full personal finance OS.
 
 ---
